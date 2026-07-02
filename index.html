@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+    <html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>나의 소개 사이트</title>
+
+    <style>
+*       {
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial,sans-serif;
+        }
+
+        body{
+            background:#fffaeb;
+        }
+
+        header{
+            background:#d3a45e;
+            color:white;
+            text-align:center;
+            padding:40px;
+        }
+
+        .container{
+            max-width:1000px;
+            margin:40px auto;
+        }
+
+        .gallery{
+            display:grid;
+            grid-template-columns:repeat(2,1fr);
+            gap:20px;
+        }
+
+        .card{
+            background:white;
+            padding:15px;
+            border-radius:10px;
+            box-shadow:0 2px 5px rgba(0,0,0,0.1);
+            text-align:center;
+        }
+
+        .photo{
+            width:100%;
+            height:250px;
+            overflow:hidden;
+            border-radius:10px;
+            margin-bottom:10px;
+            border:2px solid #e8d9c5;
+            background:#f8f1e8;
+            }
+
+        .photo img{
+            width:100%;
+            height:100%;
+            object-fit:cover;
+            display:block;
+            transition:0.3s;
+        }
+
+        .card:hover .photo img{
+            transform:scale(1.05);
+        }
+
+    </style>
+
+    </head>
+    <body>
+        <header>
+            <h1>나의 소개 사이트</h1>
+            <p>introduce myself</p>
+        </header>
+        <div class="container">
+        <div class="gallery">
+            <div class="card">
+                <a href="about.html">
+                    <div class="photo">
+                        <img src="img/from @1dxmxeee on twitter _ x.webp" alt="사진1">
+                    </div>
+                    <b>about me</b>
+                </a>
+            </div>
+            <div class="card">
+                <a href="contact.html">
+                    <div class="photo">
+                        <img src="img/다운로드 (2).jpeg" alt="사진2">
+                    </div>
+                    <b>contact</b>
+                </a>
+            </div>
+            <div class="card">
+                <a href="interest.html">
+                    <div class="photo">
+                        <img src="img/다운로드 (3).jpeg" alt="사진3">
+                    </div>
+                    <b>interest</b>
+                </a>
+            </div>
+            <div class="card">
+                <a href="https://github.com/yaeryung93">
+                    <div class="photo">
+                        <img src="img/다운로드 (4).jpeg" alt="사진4">
+                    </div>
+                    <b>github</b>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
